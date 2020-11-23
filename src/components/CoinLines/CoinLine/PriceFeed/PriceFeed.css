@@ -1,0 +1,50 @@
+
+.fadeGreen {
+    background-color: green;
+    color: white !important;
+    animation: fadeGreen 2s ease-in forwards;
+    width: 200px;
+    opacity: 1;
+    padding-right: 10px;
+    float: right;
+}
+
+.fadeGreen1 {
+    background-color: green;
+    color: white !important;
+    animation: fadeGreen 2s ease-in forwards;
+    width: 200px;
+    opacity: 1;
+    padding-right: 10px;
+    float: right;
+}
+
+.fadeRed {
+    background-color: red;
+    color: white !important;
+    animation: fadeRed 2s ease-in forwards;
+    width: 200px;
+    opacity: 1;
+    padding-right: 10px;
+    float: right;
+}
+
+.arrowUpDown {
+    font-size: 1.5rem;
+    padding-left:10px;
+}
+
+.diff {
+    font-size: 0.6rem;
+    padding-left:10px;
+}
+
+@keyframes fadeRed {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+
+  @keyframes fadeGreen {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
